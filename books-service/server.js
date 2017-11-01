@@ -4,7 +4,7 @@ const helmet = require('helmet')
 const mongoose = require('mongoose')
 const bookRouter = require('./app/routes')
 const app = express()
-const port = 8080
+const port = 3000
 
 mongoose.Promise = Promise
 
